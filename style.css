@@ -1,0 +1,25 @@
+#game table {
+    border: 0.4em blue outset;
+    background-color: blue;
+}
+#game td {
+    width: 6em;
+    height: 6em;
+    margin: 0px;
+    padding: 0px;
+    border: 0.3em blue inset;
+    border-radius: 6em;
+    background-color: white;
+    cursor: pointer;
+}
+#game td:hover {
+    background-color: rgba(128, 128, 128, 0.997);
+}
+
+
+/* #game td.player1 {
+    background-color: red;
+}
+#game td.player2 {
+    background-color: yellow;
+} */
